@@ -1,5 +1,5 @@
 # PATH
-PATH="$HOME/bin:$HOME/.local/bin/:$PATH"
+PATH="$HOME/bin:$HOME/.local/bin:$HOME/go/bin:$PATH"
 
 # alias nvim="lvim"
 # alias vim="lvim"
