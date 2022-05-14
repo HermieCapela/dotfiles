@@ -67,3 +67,8 @@ keymap("x", "<A-k>", ":move '<-2<CR>gv-gv", opts)
 -- keymap("t", "<C-k>", "<C-\\><C-N><C-w>k", term_opts)
 -- keymap("t", "<C-l>", "<C-\\><C-N><C-w>l", term_opts)
 
+-- LuaSnip Navigation
+keymap("i", "<c-l>", "<cmd>lua require'luasnip'.jump(1)<CR>", opts)
+keymap("s", "<c-l>", "<cmd>lua require'luasnip'.jump(1)<CR>", opts)
+keymap("i", "<c-h>", "<cmd>lua require'luasnip'.jump(-1)<CR>", opts)
+keymap("s", "<c-h>", "<cmd>lua require'luasnip'.jump(-1)<CR>", opts)
